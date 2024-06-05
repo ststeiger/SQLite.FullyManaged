@@ -9,7 +9,7 @@ No warranty whatsovever.
 
 **Note:** 
 
-    Data Source=file:///D:/username/Downloads/COR_switzerland.mbtiles;Version=3;Read Only=True;
+    Data Source=file:///D:/username/Downloads/switzerland.mbtiles;Version=3;Read Only=True;
 
 Note that the data source needs to start with file:///. <br />
 But then again, you can't just do 
