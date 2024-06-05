@@ -1,5 +1,5 @@
 ﻿
-namespace TestAccess
+namespace TestSystemDataSQLite
 {
 
 
@@ -49,13 +49,13 @@ namespace TestAccess
             int x = 132; int y = 164; int zoom = 8;
             string csb = "Data Source=D:\\username\\Downloads\\COR_switzerland.mbtiles;Version=3; Read Only=True;";
 
-            
+
             using (System.Data.Common.DbConnection conn = new System.Data.SQLite.SQLiteConnection(csb))
             {
                 if (conn.State != System.Data.ConnectionState.Open)
                     conn.Open();
 
-                using (System.Data.Common.DbCommand cmd = conn.CreateCommand()) 
+                using (System.Data.Common.DbCommand cmd = conn.CreateCommand())
                 {
                     cmd.CommandText = string.Format("SELECT * FROM tiles WHERE tile_column = {0} and tile_row = {1} and zoom_level = {2}", x, y, zoom);
 
@@ -73,6 +73,8 @@ namespace TestAccess
 
             } // End Using conn 
 
+            System.Console.WriteLine(" --- Press any key to continue --- ");
+            System.Console.ReadKey();
             return await System.Threading.Tasks.Task.FromResult(0);
         } // End Task Main 
 

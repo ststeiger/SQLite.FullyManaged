@@ -15,12 +15,14 @@ using Connection = System.Data.SqlClient.SqlConnection;
 
 namespace TestFullFramework
 {
+
+
     internal class Program
     {
-        static int Main(string[] args)
-        {
 
-            
+
+        static int Main(string[] args)
+        {    
             System.IO.Stream stream = null;
             int x = 132; int y = 164; int zoom = 8;
             string csb = "Data Source=D:\\username\\Downloads\\COR_switzerland.mbtiles;Version=3; Read Only=True;";
@@ -61,7 +63,14 @@ namespace TestFullFramework
 
             } // End Using conn 
 
+
+            System.Console.WriteLine(" --- Press any key to continue --- ");
+            System.Console.ReadKey();
             return 0;
-        }
-    }
-}
+        } // End Task Main 
+
+
+    } // End Class Program 
+
+
+} // End Namespace 

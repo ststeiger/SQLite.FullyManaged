@@ -105,6 +105,7 @@ namespace TestFullyManaged
             } // End if (stream != null) 
 
             System.Console.WriteLine(" --- Press any key to continue --- ");
+            System.Console.ReadKey();
             return await System.Threading.Tasks.Task.FromResult(0);
         } // End Task Main 
 

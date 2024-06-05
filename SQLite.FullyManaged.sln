@@ -3,19 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAccess", "TestAccess\TestAccess.csproj", "{7FC754E3-071E-4181-A619-B6AC431A9101}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFullFramework", "TestFullFramework\TestFullFramework.csproj", "{CAAD02CB-15A9-436F-847B-2AA29B2EA2B8}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Community.CsharpSqlite", "Community.CsharpSqlite\Community.CsharpSqlite.csproj", "{1FA48EE7-7D37-42FA-9B23-F024986DF9C9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Community.CsharpSqlite.SQLiteClient", "Community.CsharpSqlite.SQLiteClient\Community.CsharpSqlite.SQLiteClient.csproj", "{B1445D3A-EBF9-4353-8555-0318F875DBC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Community.CsharpSqlite.SQLiteClient", "Community.CsharpSqlite.SQLiteClient\Community.CsharpSqlite.SQLiteClient.csproj", "{B1445D3A-EBF9-4353-8555-0318F875DBC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCommunity", "TestCommunity\TestCommunity.csproj", "{D2F0E023-AD25-4503-9609-0E541AFDE819}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestCommunity", "TestCommunity\TestCommunity.csproj", "{D2F0E023-AD25-4503-9609-0E541AFDE819}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestFullyManaged", "TestFullyManaged\TestFullyManaged.csproj", "{69CB89A9-8B41-49A7-918B-B5D6CEEEA804}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestFullyManaged", "TestFullyManaged\TestFullyManaged.csproj", "{69CB89A9-8B41-49A7-918B-B5D6CEEEA804}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLite.FullyManaged", "SQLite.FullyManaged\SQLite.FullyManaged.csproj", "{98D744FA-77DF-4414-BA54-FF7BD710300B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SQLite.FullyManaged", "SQLite.FullyManaged\SQLite.FullyManaged.csproj", "{98D744FA-77DF-4414-BA54-FF7BD710300B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSystemDataSQLite", "TestSystemDataSQLite\TestSystemDataSQLite.csproj", "{ED914E3D-091E-48B2-B2E4-F3B5DEE7A4D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7FC754E3-071E-4181-A619-B6AC431A9101}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7FC754E3-071E-4181-A619-B6AC431A9101}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7FC754E3-071E-4181-A619-B6AC431A9101}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7FC754E3-071E-4181-A619-B6AC431A9101}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CAAD02CB-15A9-436F-847B-2AA29B2EA2B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CAAD02CB-15A9-436F-847B-2AA29B2EA2B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAAD02CB-15A9-436F-847B-2AA29B2EA2B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -51,6 +47,10 @@ Global
 		{98D744FA-77DF-4414-BA54-FF7BD710300B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98D744FA-77DF-4414-BA54-FF7BD710300B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98D744FA-77DF-4414-BA54-FF7BD710300B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED914E3D-091E-48B2-B2E4-F3B5DEE7A4D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED914E3D-091E-48B2-B2E4-F3B5DEE7A4D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED914E3D-091E-48B2-B2E4-F3B5DEE7A4D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED914E3D-091E-48B2-B2E4-F3B5DEE7A4D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
