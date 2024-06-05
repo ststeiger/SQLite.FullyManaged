@@ -48,9 +48,9 @@ And then use the library:
                 cs = "Data Source=file:///D:/username/Downloads/witzerland.mbtiles;Version=3;Read Only=True;"; // Note: no %20 for whitespace etc. - it's not an actual Uri
     
                 ConnectionStringBuilder csb = new ConnectionStringBuilder();
-                // csb.ConnectionString = "Data Source=D:\\username\\Downloads\\COR_switzerland.mbtiles;Version=3; Read Only=True;"; // BAD
-                // csb.Uri = "file:///D:/username/Downloads/COR_switzerland.mbtiles";
-                csb.FileName = "D:/username/Downloads/COR_switzerland.mbtiles";
+                // csb.ConnectionString = "Data Source=D:\\username\\Downloads\\switzerland.mbtiles;Version=3; Read Only=True;"; // BAD
+                // csb.Uri = "file:///D:/username/Downloads/switzerland.mbtiles";
+                csb.FileName = "D:/username/Downloads/switzerland.mbtiles";
     
                 csb.Version = 3;
                 csb.ReadOnly = true;
