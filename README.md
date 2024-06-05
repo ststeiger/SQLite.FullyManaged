@@ -21,6 +21,12 @@ because it's not actually an Uri - instead it's just the filename prefixed by "f
 
 ## Usage:
 
+Add the package reference: 
+
+    dotnet add package SQLite.FullyManaged 
+
+And then use the library:     
+
 
     namespace TestFullyManaged
     {
