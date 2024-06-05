@@ -1,7 +1,7 @@
 # SQLite.FullyManaged
 
 A fully managed SQLite3 port to C# using NetStandard 2.0. <br />
-This contains unsafe code. <br />
+This project contains unsafe code. <br />
 Probably not safe for production use. <br />
 License as with SQLite and Community.CsharpSqlite and 2008 Noah B Hart SQLite3 port to C#-SQLite. <br />
 No warranty whatsovever. 
