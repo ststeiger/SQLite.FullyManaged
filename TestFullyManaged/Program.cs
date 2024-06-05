@@ -48,9 +48,9 @@ namespace TestFullyManaged
                 fileContent = fileContent.Replace("namespace Community.CsharpSqlite", "namespace SQLite.FullyManaged.Engine");
                 fileContent = fileContent.Replace("using Community.CsharpSqlite.SQLiteClient", "using SQLite.FullyManaged.Engine");
                 await System.IO.File.WriteAllTextAsync(thisFile, fileContent, System.Text.Encoding.UTF8);
-            }
+            } // Next thisFile 
 
-        }
+        } // End Task ChangeNamespace 
 
 
         public static async System.Threading.Tasks.Task<int> Main(string[] args)
