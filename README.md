@@ -44,8 +44,8 @@ And then use the library:
             {
                 System.IO.Stream stream = null;
                 int x = 132; int y = 164; int zoom = 8;
-                string cs = "Data Source=D:\\username\\Downloads\\COR_switzerland.mbtiles;Version=3; Read Only=True;";
-                cs = "Data Source=file:///D:/username/Downloads/COR_switzerland.mbtiles;Version=3;Read Only=True;";
+                string cs = "Data Source=D:\\username\\Downloads\\switzerland.mbtiles;Version=3; Read Only=True;"; // this doesn't work 
+                cs = "Data Source=file:///D:/username/Downloads/witzerland.mbtiles;Version=3;Read Only=True;"; // Note: no %20 for whitespace etc. - it's not an actual Uri
     
                 ConnectionStringBuilder csb = new ConnectionStringBuilder();
                 // csb.ConnectionString = "Data Source=D:\\username\\Downloads\\COR_switzerland.mbtiles;Version=3; Read Only=True;"; // BAD
