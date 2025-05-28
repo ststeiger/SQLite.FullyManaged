@@ -63,12 +63,20 @@ namespace TestFullyManaged
             ConnectionStringBuilder csb = new ConnectionStringBuilder();
             // csb.ConnectionString = "Data Source=D:\\username\\Downloads\\COR_switzerland.mbtiles;Version=3; Read Only=True;"; // BAD
             // csb.Uri = "file:///D:/username/Downloads/COR_switzerland.mbtiles";
-            csb.FileName = "D:/username/Downloads/COR_switzerland.mbtiles";
+            // csb.FileName = "D:/username/Downloads/COR_switzerland.mbtiles";
+            // csb.FileName = @"D:\aa bb;/COR_switzerland.mbtiles";
+            // csb.FileName = @"D:\aa bb;äöü/COR_switzerland.mbtiles";
+            // csb.FileName = @"COR_switzerland.mbtiles";
+            csb.FileName = "D:/username/Documents/Visual Studio 2022/gitlab/VectorTileServer/VectorTileServer/App_Data/COR_switzerland.mbtiles";
+
+
+            // Not a valid URI form (should be file:///D:/...), but S
 
             csb.Version = 3;
             csb.ReadOnly = true;
             cs = csb.ConnectionString;
             System.Console.WriteLine(cs);
+
 
 
             using (System.Data.Common.DbConnection conn = new Connection(cs))
